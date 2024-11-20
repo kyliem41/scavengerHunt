@@ -15,7 +15,7 @@ const scavengerData = [
     { image: "images/rlc.jpg", clue: `Are you having roommate troubles or are considering rooming with a friend? Maybe you feel homesick 
         and need guidance on making the most of your home and campus life. This office is where housing decisions are made and community 
         comes to life. Find the Residence Life Coordinator (RLC) here! What is the RLC’s first name?`, answer: "Tori" }, //rlc
-    { image: "images/foodCourt.jpg", clue: `If you are looking for food while waiting for that 6 pm class to start the City Creek Food 
+    { image: "images/foodCourt.png", clue: `If you are looking for food while waiting for that 6 pm class to start the City Creek Food 
         Court is a great place to go. There are many options to choose from. What restaurant is located across from the Sbarro?`, 
         answer: "Chick-fil-A" }, //food court
     { image: "images/busStop.jpg", clue: `This bus route is in between Neumont and City Creek. What bus route at this bus stop will take 
