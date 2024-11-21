@@ -48,7 +48,7 @@ function loadClue(index) {
 // Check answer
 submitAnswer.onclick = function() {
     const userAnswer = answerInput.value.trim().toLowerCase();
-    const correctAnswer = scavengerData[currentClueIndex].answer;
+    const correctAnswer = scavengerData[currentClueIndex].answer.toLowerCase();
 
     if (userAnswer === correctAnswer) {
         feedback.textContent = "Correct! Moving to the next clue...";
@@ -61,7 +61,7 @@ submitAnswer.onclick = function() {
         } else {
             setTimeout(() => {
                 clueText.textContent = "Congratulations! You've completed the scavenger hunt!";
-                clueImage.src = "";
+                clueImage.src = "images/neumont.jpg";
                 feedback.textContent = "";
                 answerInput.style.display = "none";
                 submitAnswer.style.display = "none";
